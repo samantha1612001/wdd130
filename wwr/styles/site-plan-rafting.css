@@ -14,8 +14,8 @@ body {
     --paragraph-font: 'Merriweather', serif;
 
     --nav-background-color: #4B7F8F;
-    --nav-link-color: #BFD7FF;
-    --nav-hover-link-color: #E2FDFF;
+    --nav-link-color: #E2FDFF;
+    --nav-hover-link-color: #BFD7FF;
     --nav-hover-background-color: #101935;
 }
 h1, h2, h3, h4, h5, h6 {
