@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+:root {
+    --primary-color: #4B7F8F;
+    --secondary-color: #BFD7FF;
+    --accent1-color: #E2FDFF;
+    --accent2-color: #101935;
+
+    --heading-font: 'Alfa Slab One', serif;
+    --paragraph-font: 'Merriweather', serif;
+    --heading-color:var(--accent2-color);
+    --paragraph-color:var(--nav-hover-link-color);
+
+    --nav-background-color: #4B7F8F;
+    --nav-link-color: #E2FDFF;
+    --nav-hover-link-color: #BFD7FF;
+    --nav-hover-background-color: #101935;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 60%; left: 70%;
+}
+
+article p {
+    font-size: large;
+    position: absolute;
+    top: 420px; left: 400px; right: 450px;
+}
+
+h1 {
+    float: right;
+    position: absolute;
+    top: 200px; left: 650px;
+    padding: 20px 100px;
+    background-color: var(--accent1-color);
+}
+
+.sociallinks img {
+    height: 50px;
+}
