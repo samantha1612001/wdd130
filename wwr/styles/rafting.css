@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+:root {
+    --primary-color: #4B7F8F;
+    --secondary-color: #BFD7FF;
+    --accent1-color: #E2FDFF;
+    --accent2-color: #101935;
+
+    --heading-font: 'Alfa Slab One', serif;
+    --paragraph-font: 'Merriweather', serif;
+
+    --nav-background-color: #4B7F8F;
+    --nav-link-color: #E2FDFF;
+    --nav-hover-link-color: #BFD7FF;
+    --nav-hover-background-color: #101935;
+}
