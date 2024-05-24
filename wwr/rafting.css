@@ -7,8 +7,6 @@
 
     --heading-font: 'Alfa Slab One', serif;
     --paragraph-font: 'Merriweather', serif;
-    --heading-color:var(--accent2-color);
-    --paragraph-color:var(--nav-hover-link-color);
 
     --nav-background-color: #4B7F8F;
     --nav-link-color: #E2FDFF;
@@ -20,6 +18,7 @@
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 article img {
@@ -41,8 +40,54 @@ h1 {
     top: 200px; left: 650px;
     padding: 20px 100px;
     background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .sociallinks img {
     height: 50px;
 }
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-item {
+    width: 100%;
+    margin: 10px;
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    align-self: center;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    align-self: center;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    align-self: center;
+}
+
+.flexbox-item-4 {
+    min-height: 300px;
+    align-self: center;
+}
+
+.flexbox-item-5 {
+    min-height: 80px;
+    align-self: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    align-content: end;
+    justify-content: right;
+}
+
