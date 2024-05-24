@@ -91,3 +91,14 @@ h1 {
     justify-content: right;
 }
 
+.grid-main {
+    display: grid;
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+.grid-item-1 {
+    align-content: end;
+    justify-content: flex-end;
+}
+
