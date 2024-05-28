@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <meta name="description" content="Quiz">
+    <meta name="author" content="Samantha Santana">
+    <link href="./wwr/styles/quiz.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>HTML and CSS quiz</h1>
+        <form>
+            <div class="question">
+                <label for="q1">What does the acronym HTML stand for?</label>
+                <input type="text" name="q1" id="q1" required>
+            </div>
+
+            <div class="question">
+                <label for="q2">Explain the use of html and css.</label>
+                <textarea name="q2" id="q2" rows="4" cols="40" required></textarea>
+            </div>
+
+            <div class="question">
+                <label for="q3">What is used to create space around an element's content, inside of any defined borders?</label>
+                <select name="q3" id="q3" required>
+                    <option value="" selected disabled>Choose one answer</option>
+                    <option value="margin">Margin</option>
+                    <option value="padding">Padding</option>
+                    <option value="height">Height</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="q4">How many head tags can a html file have?</label>
+                <input type="number" name="q4" id="q4" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+    

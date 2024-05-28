@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(146, 102, 77, 0.586);
+    margin: 0;
+    padding: 20px;
+}
+
+.quiz-container {
+    background-color: rgb(50, 11, 11);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.question {
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(74, 67, 67);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
